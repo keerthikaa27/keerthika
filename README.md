@@ -1,28 +1,38 @@
-# Online Book Store
+Hi there 👋, I’m Keerthika Nimmagadda
 
-A Java-based console application that simulates an online bookstore.  
-Users can browse available books, purchase them, and view their cart.
+ -> Computer Science & Engineering undergraduate (VIT Amaravati, 2022–2026)
+ -> Passionate about software development, web development, and data-driven solutions
+ -> Continuously exploring data structures, algorithms, and cloud technologies
 
-## Features
-- Add books to catalog
-- View available books
-- Purchase books and update inventory
-- Search books by title
-- Simple console-based user interface
+🔹 About Me
 
-## Tech Stack
-- Java
-- Java Collections Framework (HashMap, Map)
-- Scanner for input handling
+ -> Currently pursuing B.Tech in CSE (CGPA: 7.96)
+ -> Experienced in Python, Java, JavaScript, HTML, CSS
+ -> Hands-on with data structures, databases, APIs, and analytics
+ -> Fluent in Telugu, Hindi, English, and French
+ -> Actively contributing as Technical Lead @ Next-Gen Cloud Club (NGC), VIT
 
-## How to Run
-1. Clone the repository:
-Compile the program:
- - javac Bookstore.java
-Run the program:
- - java Bookstore
-## Sample output
+🔹 Projects
 
-<img width="1920" height="925" alt="Screenshot (145)" src="https://github.com/user-attachments/assets/a3acbebb-0b43-478d-b117-bddf7f37dc26" />
-<img width="1920" height="1045" alt="Screenshot (146)" src="https://github.com/user-attachments/assets/9d44ad0a-08ff-4146-a88f-347a5b166ad7" />
-<img width="1920" height="1049" alt="Screenshot (147)" src="https://github.com/user-attachments/assets/1ed8babb-9cce-4eb0-9073-dc44ec466674" />
+ -> Online Book Store :
+        A Java-based console application showcasing efficient use of data structures and algorithms for a functional  bookstore system.
+
+-> Inventory Management System :
+        Console-based Java system for managing inventory with database integration and business logic.
+
+🔹 Experience & Achievements
+
+  -> Internship @ Intrain Tech (in collaboration with SkillCepha) – Worked on Healthy Lifestyle Project
+
+  -> Web Development Training @ Corizo – Built hands-on experience in modern web technologies
+
+  -> Finalist in International Programming League @ VIT and Speed Code Global Event
+
+  -> Ranked Top 10 in Run Raise Repeat (National Event) organized by NGC & MSC
+
+🔹 Tech Stack
+
+  -> Languages & Tools
+     Python | Java | JavaScript | HTML | CSS | Pandas | NumPy | Databases | APIs | ETL Tools 
+
+✨ I love solving problems, building impactful projects, and collaborating with communities to create meaningful tech solutions.
