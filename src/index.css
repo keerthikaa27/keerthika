@@ -1,0 +1,10 @@
+/* src/index.css */
+@import "tailwindcss";
+
+/* Make the whole app navy + white by default */
+@layer base {
+  body {
+    @apply text-white;
+    background-color: #0a192f; /* Brittany-style navy */
+  }
+}
