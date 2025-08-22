@@ -2,7 +2,11 @@
 
 export const Profile = {
   name: "Nimmagadda Keerthika",
+<<<<<<< HEAD
   title: "CSE Undergrad @ VIT AP University",
+=======
+  title: "CSE Undergrad at VIT AP University",
+>>>>>>> 32af1ee7a962c40a46c5c691461d2135d59e7ad7
   location: "Andhra Pradesh, India",
   email: "keerthikanimmagadda@gmail.com",
   phone: "+91-9347664937",
@@ -11,7 +15,11 @@ export const Profile = {
     linkedin: "http://www.linkedin.com/in/keerthika-nimmagadda",
   },
   summary:
+<<<<<<< HEAD
     "B.Tech CSE Undergrad (2022–2026), passionate about building clean web apps and data-driven solutions. Interested in Software development, Full-stack development and Data analysis.",
+=======
+    "B.Tech CSE Undergrad (2022–2026), passionate about building clean web apps and data-driven solutions. Interested in Software development, Web Technologies, Full-stack development and Data analytics.",
+>>>>>>> 32af1ee7a962c40a46c5c691461d2135d59e7ad7
 };
 
 export const Education = [
@@ -106,20 +114,31 @@ export const skills = {
   Tools: ["Git"],
   Cloud: ["AWS (Beginner)"],
   CS_Fundamentals: ["Data Structures & Algorithms"],
+<<<<<<< HEAD
   Softskills: [
     "Communication",
     "Teamwork",
     "Problem-solving",
     "Time management",
     "Critical thinking",
+=======
+  Softskills: ["Communication", "Teamwork", "Problem-solving", "Time management", "Critical thinking",
+>>>>>>> 32af1ee7a962c40a46c5c691461d2135d59e7ad7
   ],
   Languages: ["Telugu", "Hindi", "English"],
 };
 
 export const achievements = [
+<<<<<<< HEAD
   "Recognized for contributions during internship at Intrain Tech in Data Analytics",
   "Gained hands-on experience in web development during a 2 month training in Corizo company",
   "Qualified for the International Programming League at VIT",
   "3-hour Speed Code Global event (NGC, MSC, BRAC University) participant",
   
+=======
+  "Qualified for the International Programming League at VIT",
+  "3-hour Speed Code Global event (NGC, MSC, BRAC University) participant",
+  "Recognized for contributions during Intrain Tech internship in Data Analytics",
+  "Gained hands-on experience in web development during a 2 month training in Corizo comapny"
+>>>>>>> 32af1ee7a962c40a46c5c691461d2135d59e7ad7
 ];
