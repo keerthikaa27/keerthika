@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ======================
+   Global Theme
+====================== */
+.blinking-cursor {
+  display: inline-block;
+  width: 1ch;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
+}
+
+:root {
+  --container: 1100px;
+}
+
+body {
+  @apply bg-zinc-950 text-zinc-200 font-sans;
+}
+
+.container {
+  @apply mx-auto px-6;
+  max-width: var(--container);
+}
+
+.section {
+  @apply py-24 md:py-32;
+}
+
+.section-title {
+  @apply font-display text-3xl md:text-4xl font-semibold tracking-tight text-white;
+}
+
+/* ======================
+   Links & Buttons
+====================== */
+a.t-link { 
+  @apply text-brand-400 hover:text-brand-300 underline underline-offset-4 decoration-brand-600/40; 
+}
+
+.btn { 
+  @apply inline-flex items-center gap-2 rounded-2xl border border-white/10 px-4 py-2 hover:bg-white/5 transition; 
+}
+
+.card { 
+  @apply rounded-2xl border border-white/10 bg-white/5 backdrop-blur p-6 shadow-soft; 
+}
+
+/* ======================
+   Custom Utilities
+====================== */
+@layer utilities {
+  .shadow-soft {
+    /* Soft, subtle shadow like Brittany Chiang’s cards */
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  }
+}
+
+/* ======================
+   Scrollbar
+====================== */
+::-webkit-scrollbar { 
+  width: 10px; 
+  height: 10px; 
+}
+::-webkit-scrollbar-thumb { 
+  background: #27272a; 
+  border-radius: 9999px; 
+}
