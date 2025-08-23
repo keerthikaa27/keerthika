@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+/* src/index.css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -22,7 +22,8 @@
 }
 
 body {
-  @apply bg-zinc-950 text-zinc-200 font-sans;
+  @apply text-zinc-200 font-sans;
+  background-color: #0a192f; /* navy background like Brittany Chiang */
 }
 
 .container {
@@ -74,15 +75,4 @@ a.t-link {
   background: #27272a; 
   border-radius: 9999px; 
 }
-=======
-/* src/index.css */
-@import "tailwindcss";
 
-/* Make the whole app navy + white by default */
-@layer base {
-  body {
-    @apply text-white;
-    background-color: #0a192f; /* Brittany-style navy */
-  }
-}
->>>>>>> 32af1ee7a962c40a46c5c691461d2135d59e7ad7
